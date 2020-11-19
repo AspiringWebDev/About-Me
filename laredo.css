@@ -460,6 +460,7 @@ opacity: 0;
 #skills {
 	padding: 100px 0 100px 0;
 	background-color: darkslategray;
+	color: whitesmoke;
 }
 .progressBar {
 	margin-bottom: 26px;
@@ -608,6 +609,7 @@ footer {
 	min-height: 120px;
 	padding: 40px 0 40px 0;
 	background-color: darkslategray;
+	color: whitesmoke;
 	
 	
 	
