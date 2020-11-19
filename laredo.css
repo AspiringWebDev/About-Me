@@ -279,6 +279,7 @@ header {
 .title .icon {
 	color: #FFFFFF;
 	font-size: 120px;
+	margin-top: -15px;
 }
 .main_nav {
 	position: fixed;
