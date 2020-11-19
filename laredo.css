@@ -222,7 +222,7 @@ header {
 	justify-content: center;
     width: 100%;
 	height: 100vh;
-	background-color:#333d60
+	background-color:darkslategray;
 	
 }
 .title {
@@ -305,7 +305,7 @@ header {
 	max-height: 400px !important;
 }
 .sticky {
-	background-color:black;
+	background-color:darkslategray;
 	color: white;
 	opacity: 1;
 	top: 0px;
@@ -378,8 +378,9 @@ nav ul a:hover {
 	width: 30px;
 	height: 4px;
 	margin-bottom: 6px;
-	background: #000000;
+	background: grey;
 	display: block;
+	
 }
 .scroll-down {
 	position: absolute;
@@ -450,20 +451,14 @@ opacity: 0;
 
 #about {
 	padding: 100px 0 50px 0;
+	background-color: gray;
 }
-/* Team Section
-********************************************************************* */
-#team {
-	padding: 50px 0 100px 0;
-}
-#team .icon {
-	font-size: 26px;
-}
+
 /* Skills Section
 ********************************************************************* */
 #skills {
 	padding: 100px 0 100px 0;
-	background-color: #F5F5F5;
+	background-color: darkslategray;
 }
 .progressBar {
 	margin-bottom: 26px;
@@ -526,6 +521,7 @@ opacity: 0;
 ********************************************************************* */
 #portfolio {
 	padding: 100px 0 100px 0;
+	background-color: gray;
 }
 .image {
 	background-color: #5a5a5a;
@@ -546,7 +542,8 @@ opacity: 0;
 /* Testimonial Section
 ********************************************************************* */
 #testimonial {
-	background-color: #F5F5F5;
+	background-color: darkslategray;
+	color: whitesmoke;
 	padding: 100px 0 100px 0;
 }
 .quoteLoop {
@@ -566,6 +563,7 @@ opacity: 0;
 ********************************************************************* */
 #contact {
 	padding: 100px 0 100px 0;
+	background-color: gray;
 }
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
 	height: 38px;
@@ -593,7 +591,7 @@ input[type="submit"] {
 	text-transform: uppercase;
 	text-decoration: none;
 	white-space: nowrap;
-	background: #5fc3e4;
+	background: darkslategray;
 	border-radius: 0px;
 	border: 0;
 	cursor: pointer;
@@ -608,18 +606,26 @@ input[type="submit"]:hover {
 footer {
 	min-height: 120px;
 	padding: 40px 0 40px 0;
-	background-color:black;
-	opacity: 65%;
+	background-color: darkslategray;
+	
+	
 	
 	box-sizing: border-box;
 }
 footer p {
-	color: #FFFFFF;
+	color: whitesmoke;
 	margin: 20px 0 0 0;
+	font-size: 22px;
+	
 }
 .socialIcons {
-	font-size: 34px;
-	color: rgba(255, 255, 255, 0.7);
+	font-size: 40px;
+	color:whitesmoke;
+	display:inline-flex;
+	justify-content: center;
+	align-items: center;
+	
+	
 }
 /* Lists
 ********************************************************************* */
@@ -680,6 +686,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 .icon {
 	padding-right: 10px;
 	color: #e55d87;
+	
 }
 .block {
 	width: 70px;
@@ -690,3 +697,5 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
 	margin-bottom: 50px;
 }
+
+
