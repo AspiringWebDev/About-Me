@@ -453,6 +453,7 @@ opacity: 0;
 #about {
 	padding: 100px 0 50px 0;
 	background-color: gray;
+	color: whitesmoke;
 }
 
 /* Skills Section
@@ -524,6 +525,7 @@ opacity: 0;
 #portfolio {
 	padding: 100px 0 100px 0;
 	background-color: gray;
+	color: whitesmoke;
 }
 .image {
 	background-color: #5a5a5a;
@@ -566,6 +568,7 @@ opacity: 0;
 #contact {
 	padding: 100px 0 100px 0;
 	background-color: gray;
+	color: whitesmoke;
 }
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
 	height: 38px;
