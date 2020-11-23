@@ -224,7 +224,13 @@ header {
 	height: 100vh;
 	background-color:darkslategray;
 	
+	
+	
 }
+
+
+
+
 .title {
 	-webkit-align-self: center;
 	-ms-flex-item-align: center;
@@ -645,7 +651,7 @@ footer {
 footer p {
 	color: whitesmoke;
 	margin: 20px 0 0 0;
-	font-size: 22px;
+	font-size: 15px;
 	
 }
 .socialIcons {
@@ -654,6 +660,7 @@ footer p {
 	display:inline-flex;
 	justify-content: center;
 	align-items: center;
+	
 	
 	
 }
