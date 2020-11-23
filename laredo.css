@@ -660,9 +660,17 @@ footer p {
 	display:inline-flex;
 	justify-content: center;
 	align-items: center;
+}
+.info {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: -175px;
+
 	
-	
-	
+}
+
+.ftext {
+margin-top: 245px;
 }
 /* Lists
 ********************************************************************* */
